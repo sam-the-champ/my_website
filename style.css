@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 450;
+    line-height: 1.6;
+    color: #4F4F4F;
+    background-color: #B4A292;
+    
+}
+.header-wrapper{
+    background-color: #B4A292;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: #34495E;
+   
+}
+header {
+    display: flex;
+    text-align: center;
+    padding: 5px 20px;
+    margin: 5px 5px;
+    height: 200px;
+    background-color: #34495E;
+    width: 100%;
+    font-weight: normal;
+    color: #B4A292;
+
+}
+.first-section{
+    text-align: center;
+    margin-bottom: 30px
+}
+.first-section button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2C3E50;
+    color:rgb(145, 151, 148);
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.first-section button:hover{
+    background-color: rgb(78, 97, 104);
+}
+.horizontal-rule{
+    border: none;
+    border-top: 4px dashed transparent;
+    width: 100%;
+    position: relative;
+    height: 5px;
+    overflow: hidden;
+}
+horizontal-rule::before{
+    content: " ";
+    ;
+    position: absolute;
+    width: 500%;
+    height: 5px;
+    background: repeating-linear-gradient( to right, #6f7471 0%, #404b44 25%, transparent 25%, transparent 50% );
+    animation: moveDashes 1s linear infinite;
+
+}
+keyframes moveDahes{
+    from {
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-33.33%);
+    }
+}
+.second-section{
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
+}
+.second-section h3{
+    margin-left: 20px;
+}
+.third-section{
+    margin-left: 20px;
+}
+.third-section h3{
+    margin-left: 30px;
+}
+.fourth-section{
+    margin-left: 20px;
+}
+.fourth-section p{
+    font-style: italic;
+}
+.fifth-section{
+    margin-left: 5px;
+    background-color: (248, 158, 41);
+    
+    margin-bottom: 2px;
+}
+.fifth-section h3{
+    text-align: center;
+    font-style: italic;
+}
+
+.eigth-section{
+    height: 200px;
+    margin-left: 30px;
+}
+.stand-alone{
+    text-align: center;
+    height: 700px;
+}
+
+
+footer{
+    background-color: #2B3A42;
+    height: 200px;
+    color: #a8bbaf;
+
+}
+footer h4{
+    margin-left: 10px;
+}
+footer a{
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    color: #a8bbaf;
+    
+}
+footer a:hover{
+    color: #59695f;
+}
+footer p{
+    text-align: center;
+    margin-top: 20px;
+}
