@@ -5,32 +5,21 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    font-weight: 450;
+    font-size: small;
+    font-weight: normal;
     line-height: 1.6;
-    color: #4F4F4F;
-    background-color: #B4A292;
+    color: #222831;
+    background-color: #ffffff;
     
 }
-.header-wrapper{
-    background-color: #B4A292;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    color: #34495E;
-   
-}
+
 header {
-    display: flex;
     text-align: center;
-    padding: 5px 20px;
-    margin: 5px 5px;
-    height: 200px;
-    background-color: #34495E;
+    margin-top: 5px;
     width: 100%;
     font-weight: normal;
-    color: #B4A292;
+    margin-bottom: 30px;
+    
 
 }
 .first-section{
@@ -50,32 +39,8 @@ header {
 .first-section button:hover{
     background-color: rgb(78, 97, 104);
 }
-.horizontal-rule{
-    border: none;
-    border-top: 4px dashed transparent;
-    width: 100%;
-    position: relative;
-    height: 5px;
-    overflow: hidden;
-}
-horizontal-rule::before{
-    content: " ";
-    ;
-    position: absolute;
-    width: 500%;
-    height: 5px;
-    background: repeating-linear-gradient( to right, #6f7471 0%, #404b44 25%, transparent 25%, transparent 50% );
-    animation: moveDashes 1s linear infinite;
 
-}
-keyframes moveDahes{
-    from {
-        transform: translateX(0%);
-    }
-    to{
-        transform: translateX(-33.33%);
-    }
-}
+
 .second-section{
     margin-left: 30px;
     margin-top: 5px;
@@ -92,14 +57,13 @@ keyframes moveDahes{
     margin-left: 30px;
 }
 .fourth-section{
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .fourth-section p{
     font-style: italic;
 }
 .fifth-section{
-    margin-left: 5px;
-    background-color: (248, 158, 41);
+    margin-left: 15px;
     
     margin-bottom: 2px;
 }
@@ -109,19 +73,21 @@ keyframes moveDahes{
 }
 
 .eigth-section{
-    height: 200px;
     margin-left: 30px;
 }
 .stand-alone{
     text-align: center;
-    height: 700px;
+   margin-bottom: 15px;
 }
 
+img{
+    filter: brightness(90%);
+}
 
 footer{
-    background-color: #2B3A42;
+    
     height: 200px;
-    color: #a8bbaf;
+    
 
 }
 footer h4{
@@ -140,4 +106,7 @@ footer a:hover{
 footer p{
     text-align: center;
     margin-top: 20px;
+}
+footer h4{
+    margin-bottom: 5px;
 }
